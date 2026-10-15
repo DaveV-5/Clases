@@ -24,3 +24,25 @@ Programa interactivo desarrollado en lenguaje C que simula una ruleta de opcione
 ## 🛠️ Compilación y Ejecución:
 1. Abre el archivo en **Dev-C++** (asegúrate de guardarlo con la extensión `.c`).
 2. Presiona **F11** para compilar y ejecutar automáticamente.
+
+Segundo Ejercicio:
+ Nombre del Proyecto : Conversor de Unidades Avanzado en C++
+ Desarrollado para Dev-C++
+ 
+ Descripción:
+   Programa interactivo de consola diseñado para realizar conversiones 
+   precisas entre múltiples unidades físicas. Cuenta con un sistema 
+   robusto de validación de entradas, diseño visual centrado con colores 
+   modernos, soporte para unidades del Sistema Internacional (SI), 
+   conversión de temperatura y repetición fluida mediante bucles (s/n).
+
+ Características Principales:
+   1. Magnitudes Soportadas:
+      - Longitud (Metros, Kilómetros, Centímetros, Milímetros, Millas, Pulgadas, Pies).
+      - Masa (Kilogramos, Gramos, Miligramos, Toneladas, Libras, Onzas).
+      - Tiempo (Segundos, Milisegundos, Minutos, Horas, Días).
+      - Temperatura (Celsius, Fahrenheit, Kelvin con fórmulas especiales).
+   2. Validación Estricta: Previene bloqueos ante letras, símbolos y números 
+      negativos no permitidos.
+   3. Interfaz Visual: Diseño simétrico centrado en pantalla con colores 
+      dinámicos para una mejor experiencia de usuario.
