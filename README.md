@@ -25,24 +25,30 @@ Programa interactivo desarrollado en lenguaje C que simula una ruleta de opcione
 1. Abre el archivo en **Dev-C++** (asegúrate de guardarlo con la extensión `.c`).
 2. Presiona **F11** para compilar y ejecutar automáticamente.
 
-Segundo Ejercicio:
- Nombre del Proyecto : Conversor de Unidades Avanzado en C++
- Desarrollado para Dev-C++
- 
- Descripción:
-   Programa interactivo de consola diseñado para realizar conversiones 
-   precisas entre múltiples unidades físicas. Cuenta con un sistema 
-   robusto de validación de entradas, diseño visual centrado con colores 
-   modernos, soporte para unidades del Sistema Internacional (SI), 
-   conversión de temperatura y repetición fluida mediante bucles (s/n).
+# SEGUNDO EJERCICIO: CONVERSOR DE UNIDADES AVANZADO EN C++
+ Entorno de desarrollo: Dev-C++ / Consola de Windows
 
- Características Principales:
-   1. Magnitudes Soportadas:
-      - Longitud (Metros, Kilómetros, Centímetros, Milímetros, Millas, Pulgadas, Pies).
-      - Masa (Kilogramos, Gramos, Miligramos, Toneladas, Libras, Onzas).
-      - Tiempo (Segundos, Milisegundos, Minutos, Horas, Días).
-      - Temperatura (Celsius, Fahrenheit, Kelvin con fórmulas especiales).
-   2. Validación Estricta: Previene bloqueos ante letras, símbolos y números 
-      negativos no permitidos.
-   3. Interfaz Visual: Diseño simétrico centrado en pantalla con colores 
-      dinámicos para una mejor experiencia de usuario.
+ ## 1. DESCRIPCIÓN GENERAL
+ Programa interactivo de consola diseñado para realizar conversiones precisas
+ entre múltiples unidades físicas. Incorpora un sistema robusto de validación
+ de entradas, interfaz visual centrada y colorida, soporte para unidades del 
+ Sistema Internacional (SI) y la capacidad de repetir operaciones fluidamente.
+
+ ## 2. MAGNITUDES Y UNIDADES SOPORTADAS
+ - Longitud:
+   * Metros (m - SI), Kilómetros (km), Centímetros (cm), Milímetros (mm)
+   * Millas (mi), Pulgadas (in), Pies (ft)
+ - Masa:
+   * Kilogramos (kg - SI), Gramos (g), Miligramos (mg), Toneladas (t)
+   * Libras (lb), Onzas (oz)
+ - Tiempo:
+   * Segundos (s - SI), Milisegundos (ms), Minutos (min), Horas (h), Días (d)
+ - Temperatura:
+   * Celsius (C - SI), Fahrenheit (F), Kelvin (K)
+
+ ## 3. CARACTERÍSTICAS TÉCNICAS Y DE INTERFAZ
+ - Validación de Entradas: Previene bloqueos por letras, símbolos o rangos inválidos.
+   (Incluye manejo especial para permitir números negativos en temperatura).
+ - Interfaz Visual: Estructura centrada y simétrica con colores modernos para 
+   una experiencia clara y agradable a la vista.
+ - Ciclo de Repetición: Funcionalidad de reintento interactiva mediante opción (s/n)
